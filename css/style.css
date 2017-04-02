@@ -1,0 +1,145 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bannerHeader {
+    height: 134px;
+    background-color: #ffffff;
+    width: 100%;
+    opacity: .8;
+    position: fixed;
+    top: 0;
+}
+
+.houseBG {
+    background: url('../images/house3.jpg');
+    background-position-y: -240px;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+.houseBG.house2 {
+        background: url('../images/house2.jpg');
+        background-position-y:0px;
+            background-size: cover;
+
+}
+
+.logo {
+    border: 0;
+    position: fixed;
+    top: 15px;
+    left: 70px;
+    width: 120px;
+    height: 120px;
+}
+
+.BannerMenu {
+    position: fixed;
+    right: 50px;
+    height: 70px;
+    top: 60px;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.BannerMenuItem {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+    .BannerMenuItem:hover {
+    }
+
+.BannerMenu a {
+    text-decoration: none;
+    color: #333333;
+    transition: color 0.5s ease;
+}
+
+    .BannerMenu a:hover {
+        color: #bbbbbb;
+    }
+
+    .WelcomeHeaderTextBox.higher {
+        top:160px;
+        height:15px;
+    }
+        .WelcomeHeaderText.higher {
+        top:120px;
+        height:50px;
+    }
+.WelcomeHeaderTextBox {
+    position: absolute;
+    top: 300px;
+    margin: auto;
+    left: 25%;
+    width: 50%;
+    background-color: #000000;
+    height: 150px;
+    padding-top: 50px;
+    opacity:.6;
+}
+
+.WelcomeHeaderText {
+        position: absolute;
+    top: 300px;
+    margin: auto;
+    left: 25%;
+    width: 50%;
+    height: 150px;
+    padding-top: 50px;
+    color: white;
+    font-size: 40px;
+    font-family: Georgia;
+    text-align: center;
+    overflow: hidden;
+    height: 150px;
+    padding-top: 50px;
+}
+.CarouselContainer {
+    background-color:#222222;
+    padding-top:20px;
+    color:white;
+    position:absolute;
+    top:260px;
+width:100%;
+}
+.CarouselContainer.pos2 {
+        top:960px;
+
+}
+.CarouselContainer h1 
+{
+    font-weight:bold;
+    text-transform:uppercase;
+    font-size:24px;
+    font-family:Georgia;
+    margin-left:30px;
+}
+.CarouselContainer h2 
+{
+       margin-left:40px;
+
+    font-weight:normal;
+    text-transform:uppercase;
+    font-size:14px;
+}
+.jcarousel {
+width:600px;
+    height:400px;
+    margin:auto;
+    display:none;
+
+
+}
+.imgSlick 
+{
+    width:450px;
+    height:300px;
+    border:0;
+}
